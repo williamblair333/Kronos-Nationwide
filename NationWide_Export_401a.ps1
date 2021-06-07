@@ -320,7 +320,7 @@ Sub XRow_Formula_Totals()
     
     LaborLevel = ActiveCell.Offset(rowOffset:=0, columnOffset:=13).Value
     
-    If LaborLevel = "Firefighter" Or LaborLevel = "EMS" Then
+    If LaborLevel = "Firefighter" Or LaborLevel = "EMS" Or LaborLevel = "Reserve" Then
         ActiveCell.Offset(rowOffset:=0, columnOffset:=1).Activate
         ActiveCell.Value = AddUp
         ActiveCell.Formula = FunMinFFH
