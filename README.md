@@ -1,5 +1,7 @@
 # Kronos-Nationwide
 
+Update:  Currently the script is only working with .xls files.  .xlsx files are erroring out.
+
 This script will do the following:
 - save the kronos 401a xls as an xlsm
 - import vba code into new xlsm file and create a module
