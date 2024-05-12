@@ -1,6 +1,6 @@
 # Kronos-Nationwide
 
-This script will do the following:
+This VBA script will do the following:
 - save the kronos 401a xls as an xlsm
 - import vba code into new xlsm file and create a module
 - delete the first 7 rows
